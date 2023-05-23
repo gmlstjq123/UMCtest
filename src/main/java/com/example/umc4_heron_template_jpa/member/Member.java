@@ -3,10 +3,12 @@ package com.example.umc4_heron_template_jpa.member;
 import com.example.umc4_heron_template_jpa.utils.BaseTimeEntity;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 import javax.persistence.*;
 
 @Getter
+@Setter
 @NoArgsConstructor
 @Entity
 public class Member extends BaseTimeEntity {
